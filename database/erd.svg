@@ -1,0 +1,775 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2172" height="1722" viewBox="0 0 2172 1722" font-family="Roboto, Arial, sans-serif">
+<rect x="0" y="0" width="2172" height="1722" fill="#ffffff"/>
+<text x="40" y="48" font-size="26" font-weight="700" fill="#1f1d2b">BSSBMS - Entity Relationship Diagram</text>
+<text x="40" y="74" font-size="14" fill="#6b6b80">Database bar_management_db - 21 tables - Umucyo Bar (Bar Stock, Sales and Business Management System)</text>
+<text x="40" y="98" font-size="12" fill="#6b6b80">PK = primary key   FK = foreign key   UQ = unique   lines run from the "many" side (N, the table holding the FK) to the "one" side (1)</text>
+<text x="40" y="138" font-size="12" font-weight="700" fill="#5b3fd6" letter-spacing="1">USERS AND AUDIT</text>
+<text x="406" y="138" font-size="12" font-weight="700" fill="#7b5cf5" letter-spacing="1">CATALOGUE</text>
+<text x="772" y="138" font-size="12" font-weight="700" fill="#ff9a3c" letter-spacing="1">PURCHASING</text>
+<text x="1138" y="138" font-size="12" font-weight="700" fill="#f2706b" letter-spacing="1">SALES</text>
+<text x="1504" y="138" font-size="12" font-weight="700" fill="#d9534f" letter-spacing="1">CUSTOMER CREDIT</text>
+<text x="1870" y="138" font-size="12" font-weight="700" fill="#2b2540" letter-spacing="1">CASH AND STOCK</text>
+<path d="M 40.0 353.0 C -5.0 353.0, -5.0 191.0, 40.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="40.0" cy="353.0" r="3" fill="#7b5cf5"/>
+<text x="31.0" y="348.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="31.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 406.0 407.0 C 361.0 407.0, 361.0 191.0, 406.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="406.0" cy="407.0" r="3" fill="#7b5cf5"/>
+<text x="397.0" y="402.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="397.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 406.0 749.0 C 361.0 749.0, 361.0 371.0, 406.0 371.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="406.0" cy="749.0" r="3" fill="#7b5cf5"/>
+<text x="397.0" y="744.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="397.0" y="366.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 772.0 479.0 C 727.0 479.0, 727.0 191.0, 772.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="772.0" cy="479.0" r="3" fill="#7b5cf5"/>
+<text x="763.0" y="474.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="763.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 772.0 839.0 C 727.0 839.0, 727.0 443.0, 772.0 443.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="772.0" cy="839.0" r="3" fill="#7b5cf5"/>
+<text x="763.0" y="834.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="763.0" y="438.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 772.0 857.0 C 717.0 857.0, 723.0 371.0, 668.0 371.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="772.0" cy="857.0" r="3" fill="#7b5cf5"/>
+<text x="763.0" y="852.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="677.0" y="366.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="start">1</text>
+<path d="M 772.0 875.0 C 717.0 875.0, 723.0 731.0, 668.0 731.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="772.0" cy="875.0" r="3" fill="#7b5cf5"/>
+<text x="763.0" y="870.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="677.0" y="726.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="start">1</text>
+<path d="M 1138.0 479.0 C 1093.0 479.0, 1093.0 191.0, 1138.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1138.0" cy="479.0" r="3" fill="#7b5cf5"/>
+<text x="1129.0" y="474.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1129.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 1400.0 497.0 C 1455.0 497.0, 1815.0 191.0, 1870.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1400.0" cy="497.0" r="3" fill="#7b5cf5"/>
+<text x="1409.0" y="492.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="start">N</text>
+<text x="1861.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 1138.0 839.0 C 1093.0 839.0, 1093.0 443.0, 1138.0 443.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1138.0" cy="839.0" r="3" fill="#7b5cf5"/>
+<text x="1129.0" y="834.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1129.0" y="438.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 1138.0 857.0 C 1083.0 857.0, 723.0 371.0, 668.0 371.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1138.0" cy="857.0" r="3" fill="#7b5cf5"/>
+<text x="1129.0" y="852.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="677.0" y="366.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="start">1</text>
+<path d="M 1138.0 875.0 C 1083.0 875.0, 723.0 731.0, 668.0 731.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1138.0" cy="875.0" r="3" fill="#7b5cf5"/>
+<text x="1129.0" y="870.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="677.0" y="726.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="start">1</text>
+<path d="M 1138.0 1091.0 C 1093.0 1091.0, 1093.0 443.0, 1138.0 443.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1138.0" cy="1091.0" r="3" fill="#7b5cf5"/>
+<text x="1129.0" y="1086.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1129.0" y="438.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 1504.0 209.0 C 1449.0 209.0, 1455.0 191.0, 1400.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1504.0" cy="209.0" r="3" fill="#7b5cf5"/>
+<text x="1495.0" y="204.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1409.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="start">1</text>
+<path d="M 1504.0 227.0 C 1449.0 227.0, 1455.0 443.0, 1400.0 443.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1504.0" cy="227.0" r="3" fill="#7b5cf5"/>
+<text x="1495.0" y="222.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1409.0" y="438.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="start">1</text>
+<path d="M 1504.0 443.0 C 1449.0 443.0, 1455.0 191.0, 1400.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1504.0" cy="443.0" r="3" fill="#7b5cf5"/>
+<text x="1495.0" y="438.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1409.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="start">1</text>
+<path d="M 1504.0 461.0 C 1459.0 461.0, 1459.0 191.0, 1504.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1504.0" cy="461.0" r="3" fill="#7b5cf5"/>
+<text x="1495.0" y="456.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1495.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 1766.0 479.0 C 1821.0 479.0, 1815.0 191.0, 1870.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1766.0" cy="479.0" r="3" fill="#7b5cf5"/>
+<text x="1775.0" y="474.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="start">N</text>
+<text x="1861.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 1870.0 911.0 C 1825.0 911.0, 1825.0 713.0, 1870.0 713.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1870.0" cy="911.0" r="3" fill="#7b5cf5"/>
+<text x="1861.0" y="906.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1861.0" y="708.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 1870.0 929.0 C 1825.0 929.0, 1825.0 191.0, 1870.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1870.0" cy="929.0" r="3" fill="#7b5cf5"/>
+<text x="1861.0" y="924.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1861.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<path d="M 1870.0 1415.0 C 1815.0 1415.0, 723.0 371.0, 668.0 371.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1870.0" cy="1415.0" r="3" fill="#7b5cf5"/>
+<text x="1861.0" y="1410.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="677.0" y="366.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="start">1</text>
+<path d="M 1870.0 1145.0 C 1815.0 1145.0, 723.0 371.0, 668.0 371.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1870.0" cy="1145.0" r="3" fill="#7b5cf5"/>
+<text x="1861.0" y="1140.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="677.0" y="366.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="start">1</text>
+<path d="M 1870.0 479.0 C 1825.0 479.0, 1825.0 191.0, 1870.0 191.0" fill="none" stroke="#9a8fe0" stroke-width="1.4" opacity="0.85"/>
+<circle cx="1870.0" cy="479.0" r="3" fill="#7b5cf5"/>
+<text x="1861.0" y="474.0" font-size="11" font-weight="700" fill="#5b3fd6" text-anchor="end">N</text>
+<text x="1861.0" y="186.0" font-size="11" font-weight="700" fill="#d9534f" text-anchor="end">1</text>
+<rect x="40" y="150" width="262" height="110" rx="8" fill="#ffffff" stroke="#5b3fd6" stroke-width="1.6"/>
+<path d="M 40 158 h 262 v 22 h -262 z" fill="#5b3fd6"/>
+<rect x="40" y="150" width="262" height="30" rx="8" fill="#5b3fd6"/>
+<text x="52" y="170" font-size="14" font-weight="700" fill="#ffffff">roles</text>
+<text x="50" y="196" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="264" y="196" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="294" y="196" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="41" y="200" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="214" font-size="12" font-weight="400" fill="#1f1d2b">name</text>
+<text x="264" y="214" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(50)</text>
+<text x="294" y="214" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="50" y="232" font-size="12" font-weight="400" fill="#1f1d2b">description</text>
+<text x="264" y="232" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="41" y="236" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="250" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="264" y="250" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="40" y="294" width="262" height="236" rx="8" fill="#ffffff" stroke="#5b3fd6" stroke-width="1.6"/>
+<path d="M 40 302 h 262 v 22 h -262 z" fill="#5b3fd6"/>
+<rect x="40" y="294" width="262" height="30" rx="8" fill="#5b3fd6"/>
+<text x="52" y="314" font-size="14" font-weight="700" fill="#ffffff">users</text>
+<text x="50" y="340" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="264" y="340" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="294" y="340" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="41" y="344" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="358" font-size="12" font-weight="400" fill="#1f1d2b">role_id</text>
+<text x="264" y="358" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="294" y="358" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="50" y="376" font-size="12" font-weight="400" fill="#1f1d2b">full_name</text>
+<text x="264" y="376" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(120)</text>
+<rect x="41" y="380" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="394" font-size="12" font-weight="400" fill="#1f1d2b">username</text>
+<text x="264" y="394" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(50)</text>
+<text x="294" y="394" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="50" y="412" font-size="12" font-weight="400" fill="#1f1d2b">email</text>
+<text x="264" y="412" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(120)</text>
+<text x="294" y="412" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<rect x="41" y="416" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="430" font-size="12" font-weight="400" fill="#1f1d2b">phone</text>
+<text x="264" y="430" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(20)</text>
+<text x="50" y="448" font-size="12" font-weight="400" fill="#1f1d2b">password_hash</text>
+<text x="264" y="448" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="41" y="452" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="466" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="264" y="466" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="50" y="484" font-size="12" font-weight="400" fill="#1f1d2b">last_login_at</text>
+<text x="264" y="484" font-size="10.5" fill="#6b6b80" text-anchor="end">datetime</text>
+<rect x="41" y="488" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="502" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="264" y="502" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<text x="50" y="520" font-size="12" font-weight="400" fill="#1f1d2b">updated_at</text>
+<text x="264" y="520" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="406" y="150" width="262" height="146" rx="8" fill="#ffffff" stroke="#7b5cf5" stroke-width="1.6"/>
+<path d="M 406 158 h 262 v 22 h -262 z" fill="#7b5cf5"/>
+<rect x="406" y="150" width="262" height="30" rx="8" fill="#7b5cf5"/>
+<text x="418" y="170" font-size="14" font-weight="700" fill="#ffffff">categories</text>
+<text x="416" y="196" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="630" y="196" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="660" y="196" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="407" y="200" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="214" font-size="12" font-weight="400" fill="#1f1d2b">name</text>
+<text x="630" y="214" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(80)</text>
+<text x="660" y="214" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="416" y="232" font-size="12" font-weight="400" fill="#1f1d2b">description</text>
+<text x="630" y="232" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="407" y="236" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="250" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="630" y="250" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="416" y="268" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="630" y="268" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="407" y="272" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="286" font-size="12" font-weight="400" fill="#1f1d2b">updated_at</text>
+<text x="630" y="286" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="406" y="330" width="262" height="326" rx="8" fill="#ffffff" stroke="#7b5cf5" stroke-width="1.6"/>
+<path d="M 406 338 h 262 v 22 h -262 z" fill="#7b5cf5"/>
+<rect x="406" y="330" width="262" height="30" rx="8" fill="#7b5cf5"/>
+<text x="418" y="350" font-size="14" font-weight="700" fill="#ffffff">products</text>
+<text x="416" y="376" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="630" y="376" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="660" y="376" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="407" y="380" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="394" font-size="12" font-weight="400" fill="#1f1d2b">product_code</text>
+<text x="630" y="394" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(30)</text>
+<text x="660" y="394" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="416" y="412" font-size="12" font-weight="400" fill="#1f1d2b">category_id</text>
+<text x="630" y="412" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="660" y="412" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="407" y="416" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="430" font-size="12" font-weight="400" fill="#1f1d2b">name</text>
+<text x="630" y="430" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(120)</text>
+<text x="416" y="448" font-size="12" font-weight="400" fill="#1f1d2b">brand</text>
+<text x="630" y="448" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(80)</text>
+<rect x="407" y="452" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="466" font-size="12" font-weight="400" fill="#1f1d2b">barcode</text>
+<text x="630" y="466" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(50)</text>
+<text x="660" y="466" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="416" y="484" font-size="12" font-weight="400" fill="#1f1d2b">base_unit</text>
+<text x="630" y="484" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(20)</text>
+<rect x="407" y="488" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="502" font-size="12" font-weight="400" fill="#1f1d2b">purchase_price</text>
+<text x="630" y="502" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="416" y="520" font-size="12" font-weight="400" fill="#1f1d2b">avg_cost</text>
+<text x="630" y="520" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,4)</text>
+<rect x="407" y="524" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="538" font-size="12" font-weight="400" fill="#1f1d2b">selling_price</text>
+<text x="630" y="538" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="416" y="556" font-size="12" font-weight="400" fill="#1f1d2b">quantity_in_stock</text>
+<text x="630" y="556" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<rect x="407" y="560" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="574" font-size="12" font-weight="400" fill="#1f1d2b">min_stock</text>
+<text x="630" y="574" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="416" y="592" font-size="12" font-weight="400" fill="#1f1d2b">expiry_date</text>
+<text x="630" y="592" font-size="10.5" fill="#6b6b80" text-anchor="end">date</text>
+<rect x="407" y="596" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="610" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="630" y="610" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="416" y="628" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="630" y="628" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="407" y="632" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="646" font-size="12" font-weight="400" fill="#1f1d2b">updated_at</text>
+<text x="630" y="646" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="406" y="690" width="262" height="164" rx="8" fill="#ffffff" stroke="#7b5cf5" stroke-width="1.6"/>
+<path d="M 406 698 h 262 v 22 h -262 z" fill="#7b5cf5"/>
+<rect x="406" y="690" width="262" height="30" rx="8" fill="#7b5cf5"/>
+<text x="418" y="710" font-size="14" font-weight="700" fill="#ffffff">product_units</text>
+<text x="416" y="736" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="630" y="736" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="660" y="736" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="407" y="740" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="754" font-size="12" font-weight="400" fill="#1f1d2b">product_id</text>
+<text x="630" y="754" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="660" y="754" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="416" y="772" font-size="12" font-weight="400" fill="#1f1d2b">unit_name</text>
+<text x="630" y="772" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(20)</text>
+<rect x="407" y="776" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="790" font-size="12" font-weight="400" fill="#1f1d2b">conversion_factor</text>
+<text x="630" y="790" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="416" y="808" font-size="12" font-weight="400" fill="#1f1d2b">selling_price</text>
+<text x="630" y="808" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="407" y="812" width="260" height="18" fill="#f4f4f8"/>
+<text x="416" y="826" font-size="12" font-weight="400" fill="#1f1d2b">is_base</text>
+<text x="630" y="826" font-size="10.5" fill="#6b6b80" text-anchor="end">tinyint(1)</text>
+<text x="416" y="844" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="630" y="844" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="772" y="150" width="262" height="218" rx="8" fill="#ffffff" stroke="#ff9a3c" stroke-width="1.6"/>
+<path d="M 772 158 h 262 v 22 h -262 z" fill="#ff9a3c"/>
+<rect x="772" y="150" width="262" height="30" rx="8" fill="#ff9a3c"/>
+<text x="784" y="170" font-size="14" font-weight="700" fill="#ffffff">suppliers</text>
+<text x="782" y="196" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="996" y="196" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="196" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="773" y="200" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="214" font-size="12" font-weight="400" fill="#1f1d2b">supplier_code</text>
+<text x="996" y="214" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(30)</text>
+<text x="1026" y="214" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="782" y="232" font-size="12" font-weight="400" fill="#1f1d2b">name</text>
+<text x="996" y="232" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(120)</text>
+<rect x="773" y="236" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="250" font-size="12" font-weight="400" fill="#1f1d2b">business_name</text>
+<text x="996" y="250" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(150)</text>
+<text x="782" y="268" font-size="12" font-weight="400" fill="#1f1d2b">phone</text>
+<text x="996" y="268" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(20)</text>
+<rect x="773" y="272" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="286" font-size="12" font-weight="400" fill="#1f1d2b">email</text>
+<text x="996" y="286" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(120)</text>
+<text x="782" y="304" font-size="12" font-weight="400" fill="#1f1d2b">address</text>
+<text x="996" y="304" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="773" y="308" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="322" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="996" y="322" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="782" y="340" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="996" y="340" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="773" y="344" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="358" font-size="12" font-weight="400" fill="#1f1d2b">updated_at</text>
+<text x="996" y="358" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="772" y="402" width="262" height="344" rx="8" fill="#ffffff" stroke="#ff9a3c" stroke-width="1.6"/>
+<path d="M 772 410 h 262 v 22 h -262 z" fill="#ff9a3c"/>
+<rect x="772" y="402" width="262" height="30" rx="8" fill="#ff9a3c"/>
+<text x="784" y="422" font-size="14" font-weight="700" fill="#ffffff">purchases</text>
+<text x="782" y="448" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="996" y="448" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="448" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="773" y="452" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="466" font-size="12" font-weight="400" fill="#1f1d2b">reference_no</text>
+<text x="996" y="466" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(30)</text>
+<text x="1026" y="466" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="782" y="484" font-size="12" font-weight="400" fill="#1f1d2b">supplier_id</text>
+<text x="996" y="484" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="484" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="773" y="488" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="502" font-size="12" font-weight="400" fill="#1f1d2b">purchase_date</text>
+<text x="996" y="502" font-size="10.5" fill="#6b6b80" text-anchor="end">date</text>
+<text x="782" y="520" font-size="12" font-weight="400" fill="#1f1d2b">total_cost</text>
+<text x="996" y="520" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="773" y="524" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="538" font-size="12" font-weight="400" fill="#1f1d2b">amount_paid</text>
+<text x="996" y="538" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="782" y="556" font-size="12" font-weight="400" fill="#1f1d2b">balance</text>
+<text x="996" y="556" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="773" y="560" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="574" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="996" y="574" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="782" y="592" font-size="12" font-weight="400" fill="#1f1d2b">notes</text>
+<text x="996" y="592" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="773" y="596" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="610" font-size="12" font-weight="400" fill="#1f1d2b">created_by</text>
+<text x="996" y="610" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="610" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="782" y="628" font-size="12" font-weight="400" fill="#1f1d2b">confirmed_by</text>
+<text x="996" y="628" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="628" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="773" y="632" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="646" font-size="12" font-weight="400" fill="#1f1d2b">confirmed_at</text>
+<text x="996" y="646" font-size="10.5" fill="#6b6b80" text-anchor="end">datetime</text>
+<text x="782" y="664" font-size="12" font-weight="400" fill="#1f1d2b">cancelled_by</text>
+<text x="996" y="664" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="664" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="773" y="668" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="682" font-size="12" font-weight="400" fill="#1f1d2b">cancelled_at</text>
+<text x="996" y="682" font-size="10.5" fill="#6b6b80" text-anchor="end">datetime</text>
+<text x="782" y="700" font-size="12" font-weight="400" fill="#1f1d2b">cancel_reason</text>
+<text x="996" y="700" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="773" y="704" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="718" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="996" y="718" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<text x="782" y="736" font-size="12" font-weight="400" fill="#1f1d2b">updated_at</text>
+<text x="996" y="736" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="772" y="780" width="262" height="200" rx="8" fill="#ffffff" stroke="#ff9a3c" stroke-width="1.6"/>
+<path d="M 772 788 h 262 v 22 h -262 z" fill="#ff9a3c"/>
+<rect x="772" y="780" width="262" height="30" rx="8" fill="#ff9a3c"/>
+<text x="784" y="800" font-size="14" font-weight="700" fill="#ffffff">purchase_items</text>
+<text x="782" y="826" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="996" y="826" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="826" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="773" y="830" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="844" font-size="12" font-weight="400" fill="#1f1d2b">purchase_id</text>
+<text x="996" y="844" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="844" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="782" y="862" font-size="12" font-weight="400" fill="#1f1d2b">product_id</text>
+<text x="996" y="862" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="862" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="773" y="866" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="880" font-size="12" font-weight="400" fill="#1f1d2b">unit_id</text>
+<text x="996" y="880" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1026" y="880" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="782" y="898" font-size="12" font-weight="400" fill="#1f1d2b">quantity</text>
+<text x="996" y="898" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<rect x="773" y="902" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="916" font-size="12" font-weight="400" fill="#1f1d2b">base_quantity</text>
+<text x="996" y="916" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="782" y="934" font-size="12" font-weight="400" fill="#1f1d2b">unit_cost</text>
+<text x="996" y="934" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="773" y="938" width="260" height="18" fill="#f4f4f8"/>
+<text x="782" y="952" font-size="12" font-weight="400" fill="#1f1d2b">cost_per_base_unit</text>
+<text x="996" y="952" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,4)</text>
+<text x="782" y="970" font-size="12" font-weight="400" fill="#1f1d2b">total_cost</text>
+<text x="996" y="970" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1138" y="150" width="262" height="218" rx="8" fill="#ffffff" stroke="#f2706b" stroke-width="1.6"/>
+<path d="M 1138 158 h 262 v 22 h -262 z" fill="#f2706b"/>
+<rect x="1138" y="150" width="262" height="30" rx="8" fill="#f2706b"/>
+<text x="1150" y="170" font-size="14" font-weight="700" fill="#ffffff">customers</text>
+<text x="1148" y="196" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="1362" y="196" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="196" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1139" y="200" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="214" font-size="12" font-weight="400" fill="#1f1d2b">customer_code</text>
+<text x="1362" y="214" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(30)</text>
+<text x="1392" y="214" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="1148" y="232" font-size="12" font-weight="400" fill="#1f1d2b">full_name</text>
+<text x="1362" y="232" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(120)</text>
+<rect x="1139" y="236" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="250" font-size="12" font-weight="400" fill="#1f1d2b">phone</text>
+<text x="1362" y="250" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(20)</text>
+<text x="1148" y="268" font-size="12" font-weight="400" fill="#1f1d2b">address</text>
+<text x="1362" y="268" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="1139" y="272" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="286" font-size="12" font-weight="400" fill="#1f1d2b">credit_limit</text>
+<text x="1362" y="286" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1148" y="304" font-size="12" font-weight="400" fill="#1f1d2b">current_debt</text>
+<text x="1362" y="304" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1139" y="308" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="322" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="1362" y="322" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="1148" y="340" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="1362" y="340" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="1139" y="344" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="358" font-size="12" font-weight="400" fill="#1f1d2b">updated_at</text>
+<text x="1362" y="358" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="1870" y="150" width="262" height="236" rx="8" fill="#ffffff" stroke="#2b2540" stroke-width="1.6"/>
+<path d="M 1870 158 h 262 v 22 h -262 z" fill="#2b2540"/>
+<rect x="1870" y="150" width="262" height="30" rx="8" fill="#2b2540"/>
+<text x="1882" y="170" font-size="14" font-weight="700" fill="#ffffff">cash_sessions</text>
+<text x="1880" y="196" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="2094" y="196" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="196" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1871" y="200" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="214" font-size="12" font-weight="400" fill="#1f1d2b">opened_by</text>
+<text x="2094" y="214" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="214" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1880" y="232" font-size="12" font-weight="400" fill="#1f1d2b">closed_by</text>
+<text x="2094" y="232" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="232" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1871" y="236" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="250" font-size="12" font-weight="400" fill="#1f1d2b">opened_at</text>
+<text x="2094" y="250" font-size="10.5" fill="#6b6b80" text-anchor="end">datetime</text>
+<text x="1880" y="268" font-size="12" font-weight="400" fill="#1f1d2b">closed_at</text>
+<text x="2094" y="268" font-size="10.5" fill="#6b6b80" text-anchor="end">datetime</text>
+<rect x="1871" y="272" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="286" font-size="12" font-weight="400" fill="#1f1d2b">opening_balance</text>
+<text x="2094" y="286" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1880" y="304" font-size="12" font-weight="400" fill="#1f1d2b">expected_closing</text>
+<text x="2094" y="304" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1871" y="308" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="322" font-size="12" font-weight="400" fill="#1f1d2b">counted_closing</text>
+<text x="2094" y="322" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1880" y="340" font-size="12" font-weight="400" fill="#1f1d2b">variance</text>
+<text x="2094" y="340" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1871" y="344" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="358" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="2094" y="358" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="1880" y="376" font-size="12" font-weight="400" fill="#1f1d2b">notes</text>
+<text x="2094" y="376" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="1138" y="402" width="262" height="344" rx="8" fill="#ffffff" stroke="#f2706b" stroke-width="1.6"/>
+<path d="M 1138 410 h 262 v 22 h -262 z" fill="#f2706b"/>
+<rect x="1138" y="402" width="262" height="30" rx="8" fill="#f2706b"/>
+<text x="1150" y="422" font-size="14" font-weight="700" fill="#ffffff">sales</text>
+<text x="1148" y="448" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="1362" y="448" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="448" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1139" y="452" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="466" font-size="12" font-weight="400" fill="#1f1d2b">receipt_no</text>
+<text x="1362" y="466" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(30)</text>
+<text x="1392" y="466" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="1148" y="484" font-size="12" font-weight="400" fill="#1f1d2b">customer_id</text>
+<text x="1362" y="484" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="484" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1139" y="488" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="502" font-size="12" font-weight="400" fill="#1f1d2b">cash_session_id</text>
+<text x="1362" y="502" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="502" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1148" y="520" font-size="12" font-weight="400" fill="#1f1d2b">sale_date</text>
+<text x="1362" y="520" font-size="10.5" fill="#6b6b80" text-anchor="end">datetime</text>
+<rect x="1139" y="524" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="538" font-size="12" font-weight="400" fill="#1f1d2b">subtotal</text>
+<text x="1362" y="538" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1148" y="556" font-size="12" font-weight="400" fill="#1f1d2b">discount</text>
+<text x="1362" y="556" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1139" y="560" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="574" font-size="12" font-weight="400" fill="#1f1d2b">total_amount</text>
+<text x="1362" y="574" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1148" y="592" font-size="12" font-weight="400" fill="#1f1d2b">amount_paid</text>
+<text x="1362" y="592" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1139" y="596" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="610" font-size="12" font-weight="400" fill="#1f1d2b">credit_amount</text>
+<text x="1362" y="610" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1148" y="628" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="1362" y="628" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<rect x="1139" y="632" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="646" font-size="12" font-weight="400" fill="#1f1d2b">sold_by</text>
+<text x="1362" y="646" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="646" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1148" y="664" font-size="12" font-weight="400" fill="#1f1d2b">discount_by</text>
+<text x="1362" y="664" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="664" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1139" y="668" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="682" font-size="12" font-weight="400" fill="#1f1d2b">cancelled_by</text>
+<text x="1362" y="682" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="682" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1148" y="700" font-size="12" font-weight="400" fill="#1f1d2b">cancelled_at</text>
+<text x="1362" y="700" font-size="10.5" fill="#6b6b80" text-anchor="end">datetime</text>
+<rect x="1139" y="704" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="718" font-size="12" font-weight="400" fill="#1f1d2b">cancel_reason</text>
+<text x="1362" y="718" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<text x="1148" y="736" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="1362" y="736" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="1138" y="780" width="262" height="218" rx="8" fill="#ffffff" stroke="#f2706b" stroke-width="1.6"/>
+<path d="M 1138 788 h 262 v 22 h -262 z" fill="#f2706b"/>
+<rect x="1138" y="780" width="262" height="30" rx="8" fill="#f2706b"/>
+<text x="1150" y="800" font-size="14" font-weight="700" fill="#ffffff">sale_items</text>
+<text x="1148" y="826" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="1362" y="826" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="826" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1139" y="830" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="844" font-size="12" font-weight="400" fill="#1f1d2b">sale_id</text>
+<text x="1362" y="844" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="844" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1148" y="862" font-size="12" font-weight="400" fill="#1f1d2b">product_id</text>
+<text x="1362" y="862" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="862" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1139" y="866" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="880" font-size="12" font-weight="400" fill="#1f1d2b">unit_id</text>
+<text x="1362" y="880" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="880" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1148" y="898" font-size="12" font-weight="400" fill="#1f1d2b">quantity</text>
+<text x="1362" y="898" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<rect x="1139" y="902" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="916" font-size="12" font-weight="400" fill="#1f1d2b">base_quantity</text>
+<text x="1362" y="916" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1148" y="934" font-size="12" font-weight="400" fill="#1f1d2b">unit_price</text>
+<text x="1362" y="934" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1139" y="938" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="952" font-size="12" font-weight="400" fill="#1f1d2b">unit_cost</text>
+<text x="1362" y="952" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,4)</text>
+<text x="1148" y="970" font-size="12" font-weight="400" fill="#1f1d2b">subtotal</text>
+<text x="1362" y="970" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1139" y="974" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="988" font-size="12" font-weight="400" fill="#1f1d2b">cost_total</text>
+<text x="1362" y="988" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1138" y="1032" width="262" height="164" rx="8" fill="#ffffff" stroke="#f2706b" stroke-width="1.6"/>
+<path d="M 1138 1040 h 262 v 22 h -262 z" fill="#f2706b"/>
+<rect x="1138" y="1032" width="262" height="30" rx="8" fill="#f2706b"/>
+<text x="1150" y="1052" font-size="14" font-weight="700" fill="#ffffff">payments</text>
+<text x="1148" y="1078" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="1362" y="1078" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="1078" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1139" y="1082" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="1096" font-size="12" font-weight="400" fill="#1f1d2b">sale_id</text>
+<text x="1362" y="1096" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="1096" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1148" y="1114" font-size="12" font-weight="400" fill="#1f1d2b">method</text>
+<text x="1362" y="1114" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<rect x="1139" y="1118" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="1132" font-size="12" font-weight="400" fill="#1f1d2b">amount</text>
+<text x="1362" y="1132" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1148" y="1150" font-size="12" font-weight="400" fill="#1f1d2b">reference</text>
+<text x="1362" y="1150" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(60)</text>
+<rect x="1139" y="1154" width="260" height="18" fill="#f4f4f8"/>
+<text x="1148" y="1168" font-size="12" font-weight="400" fill="#1f1d2b">received_by</text>
+<text x="1362" y="1168" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1392" y="1168" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1148" y="1186" font-size="12" font-weight="400" fill="#1f1d2b">paid_at</text>
+<text x="1362" y="1186" font-size="10.5" fill="#6b6b80" text-anchor="end">datetime</text>
+<rect x="1504" y="150" width="262" height="200" rx="8" fill="#ffffff" stroke="#d9534f" stroke-width="1.6"/>
+<path d="M 1504 158 h 262 v 22 h -262 z" fill="#d9534f"/>
+<rect x="1504" y="150" width="262" height="30" rx="8" fill="#d9534f"/>
+<text x="1516" y="170" font-size="14" font-weight="700" fill="#ffffff">customer_debts</text>
+<text x="1514" y="196" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="1728" y="196" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1758" y="196" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1505" y="200" width="260" height="18" fill="#f4f4f8"/>
+<text x="1514" y="214" font-size="12" font-weight="400" fill="#1f1d2b">customer_id</text>
+<text x="1728" y="214" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1758" y="214" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1514" y="232" font-size="12" font-weight="400" fill="#1f1d2b">sale_id</text>
+<text x="1728" y="232" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1758" y="232" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1505" y="236" width="260" height="18" fill="#f4f4f8"/>
+<text x="1514" y="250" font-size="12" font-weight="400" fill="#1f1d2b">original_amount</text>
+<text x="1728" y="250" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1514" y="268" font-size="12" font-weight="400" fill="#1f1d2b">paid_amount</text>
+<text x="1728" y="268" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1505" y="272" width="260" height="18" fill="#f4f4f8"/>
+<text x="1514" y="286" font-size="12" font-weight="400" fill="#1f1d2b">balance</text>
+<text x="1728" y="286" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1514" y="304" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="1728" y="304" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<rect x="1505" y="308" width="260" height="18" fill="#f4f4f8"/>
+<text x="1514" y="322" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="1728" y="322" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<text x="1514" y="340" font-size="12" font-weight="400" fill="#1f1d2b">updated_at</text>
+<text x="1728" y="340" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="1504" y="384" width="262" height="218" rx="8" fill="#ffffff" stroke="#d9534f" stroke-width="1.6"/>
+<path d="M 1504 392 h 262 v 22 h -262 z" fill="#d9534f"/>
+<rect x="1504" y="384" width="262" height="30" rx="8" fill="#d9534f"/>
+<text x="1516" y="404" font-size="14" font-weight="700" fill="#ffffff">debt_payments</text>
+<text x="1514" y="430" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="1728" y="430" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1758" y="430" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1505" y="434" width="260" height="18" fill="#f4f4f8"/>
+<text x="1514" y="448" font-size="12" font-weight="400" fill="#1f1d2b">customer_id</text>
+<text x="1728" y="448" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1758" y="448" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1514" y="466" font-size="12" font-weight="400" fill="#1f1d2b">customer_debt_id</text>
+<text x="1728" y="466" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1758" y="466" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1505" y="470" width="260" height="18" fill="#f4f4f8"/>
+<text x="1514" y="484" font-size="12" font-weight="400" fill="#1f1d2b">cash_session_id</text>
+<text x="1728" y="484" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1758" y="484" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1514" y="502" font-size="12" font-weight="400" fill="#1f1d2b">amount</text>
+<text x="1728" y="502" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1505" y="506" width="260" height="18" fill="#f4f4f8"/>
+<text x="1514" y="520" font-size="12" font-weight="400" fill="#1f1d2b">method</text>
+<text x="1728" y="520" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="1514" y="538" font-size="12" font-weight="400" fill="#1f1d2b">reference</text>
+<text x="1728" y="538" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(60)</text>
+<rect x="1505" y="542" width="260" height="18" fill="#f4f4f8"/>
+<text x="1514" y="556" font-size="12" font-weight="400" fill="#1f1d2b">received_by</text>
+<text x="1728" y="556" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1758" y="556" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1514" y="574" font-size="12" font-weight="400" fill="#1f1d2b">paid_at</text>
+<text x="1728" y="574" font-size="10.5" fill="#6b6b80" text-anchor="end">datetime</text>
+<rect x="1505" y="578" width="260" height="18" fill="#f4f4f8"/>
+<text x="1514" y="592" font-size="12" font-weight="400" fill="#1f1d2b">notes</text>
+<text x="1728" y="592" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="1870" y="672" width="262" height="128" rx="8" fill="#ffffff" stroke="#2b2540" stroke-width="1.6"/>
+<path d="M 1870 680 h 262 v 22 h -262 z" fill="#2b2540"/>
+<rect x="1870" y="672" width="262" height="30" rx="8" fill="#2b2540"/>
+<text x="1882" y="692" font-size="14" font-weight="700" fill="#ffffff">expense_categories</text>
+<text x="1880" y="718" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="2094" y="718" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="718" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1871" y="722" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="736" font-size="12" font-weight="400" fill="#1f1d2b">name</text>
+<text x="2094" y="736" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(80)</text>
+<text x="2124" y="736" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="1880" y="754" font-size="12" font-weight="400" fill="#1f1d2b">description</text>
+<text x="2094" y="754" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="1871" y="758" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="772" font-size="12" font-weight="400" fill="#1f1d2b">status</text>
+<text x="2094" y="772" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="1880" y="790" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="2094" y="790" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="1870" y="834" width="262" height="218" rx="8" fill="#ffffff" stroke="#2b2540" stroke-width="1.6"/>
+<path d="M 1870 842 h 262 v 22 h -262 z" fill="#2b2540"/>
+<rect x="1870" y="834" width="262" height="30" rx="8" fill="#2b2540"/>
+<text x="1882" y="854" font-size="14" font-weight="700" fill="#ffffff">expenses</text>
+<text x="1880" y="880" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="2094" y="880" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="880" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1871" y="884" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="898" font-size="12" font-weight="400" fill="#1f1d2b">expense_code</text>
+<text x="2094" y="898" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(30)</text>
+<text x="2124" y="898" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">UQ</text>
+<text x="1880" y="916" font-size="12" font-weight="400" fill="#1f1d2b">expense_category_id</text>
+<text x="2094" y="916" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="916" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1871" y="920" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="934" font-size="12" font-weight="400" fill="#1f1d2b">cash_session_id</text>
+<text x="2094" y="934" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="934" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1880" y="952" font-size="12" font-weight="400" fill="#1f1d2b">description</text>
+<text x="2094" y="952" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="1871" y="956" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="970" font-size="12" font-weight="400" fill="#1f1d2b">amount</text>
+<text x="2094" y="970" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<text x="1880" y="988" font-size="12" font-weight="400" fill="#1f1d2b">payment_method</text>
+<text x="2094" y="988" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<rect x="1871" y="992" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1006" font-size="12" font-weight="400" fill="#1f1d2b">expense_date</text>
+<text x="2094" y="1006" font-size="10.5" fill="#6b6b80" text-anchor="end">date</text>
+<text x="1880" y="1024" font-size="12" font-weight="400" fill="#1f1d2b">recorded_by</text>
+<text x="2094" y="1024" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="1024" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1871" y="1028" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1042" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="2094" y="1042" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="1870" y="1356" width="262" height="182" rx="8" fill="#ffffff" stroke="#2b2540" stroke-width="1.6"/>
+<path d="M 1870 1364 h 262 v 22 h -262 z" fill="#2b2540"/>
+<rect x="1870" y="1356" width="262" height="30" rx="8" fill="#2b2540"/>
+<text x="1882" y="1376" font-size="14" font-weight="700" fill="#ffffff">stock_adjustments</text>
+<text x="1880" y="1402" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="2094" y="1402" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="1402" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1871" y="1406" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1420" font-size="12" font-weight="400" fill="#1f1d2b">product_id</text>
+<text x="2094" y="1420" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="1420" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1880" y="1438" font-size="12" font-weight="400" fill="#1f1d2b">adjustment_type</text>
+<text x="2094" y="1438" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<rect x="1871" y="1442" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1456" font-size="12" font-weight="400" fill="#1f1d2b">direction</text>
+<text x="2094" y="1456" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="1880" y="1474" font-size="12" font-weight="400" fill="#1f1d2b">base_quantity</text>
+<text x="2094" y="1474" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<rect x="1871" y="1478" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1492" font-size="12" font-weight="400" fill="#1f1d2b">reason</text>
+<text x="2094" y="1492" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<text x="1880" y="1510" font-size="12" font-weight="400" fill="#1f1d2b">adjusted_by</text>
+<text x="2094" y="1510" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="1510" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1871" y="1514" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1528" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="2094" y="1528" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="1870" y="1086" width="262" height="236" rx="8" fill="#ffffff" stroke="#2b2540" stroke-width="1.6"/>
+<path d="M 1870 1094 h 262 v 22 h -262 z" fill="#2b2540"/>
+<rect x="1870" y="1086" width="262" height="30" rx="8" fill="#2b2540"/>
+<text x="1882" y="1106" font-size="14" font-weight="700" fill="#ffffff">stock_movements</text>
+<text x="1880" y="1132" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="2094" y="1132" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="1132" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1871" y="1136" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1150" font-size="12" font-weight="400" fill="#1f1d2b">product_id</text>
+<text x="2094" y="1150" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="1150" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1880" y="1168" font-size="12" font-weight="400" fill="#1f1d2b">movement_type</text>
+<text x="2094" y="1168" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<rect x="1871" y="1172" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1186" font-size="12" font-weight="400" fill="#1f1d2b">quantity_change</text>
+<text x="2094" y="1186" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1880" y="1204" font-size="12" font-weight="400" fill="#1f1d2b">balance_after</text>
+<text x="2094" y="1204" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<rect x="1871" y="1208" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1222" font-size="12" font-weight="400" fill="#1f1d2b">unit_cost</text>
+<text x="2094" y="1222" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,4)</text>
+<text x="1880" y="1240" font-size="12" font-weight="400" fill="#1f1d2b">reference_type</text>
+<text x="2094" y="1240" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(30)</text>
+<rect x="1871" y="1244" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1258" font-size="12" font-weight="400" fill="#1f1d2b">reference_id</text>
+<text x="2094" y="1258" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="1880" y="1276" font-size="12" font-weight="400" fill="#1f1d2b">reason</text>
+<text x="2094" y="1276" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<rect x="1871" y="1280" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="1294" font-size="12" font-weight="400" fill="#1f1d2b">created_by</text>
+<text x="2094" y="1294" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="1294" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1880" y="1312" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="2094" y="1312" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="1870" y="420" width="262" height="218" rx="8" fill="#ffffff" stroke="#2b2540" stroke-width="1.6"/>
+<path d="M 1870 428 h 262 v 22 h -262 z" fill="#2b2540"/>
+<rect x="1870" y="420" width="262" height="30" rx="8" fill="#2b2540"/>
+<text x="1882" y="440" font-size="14" font-weight="700" fill="#ffffff">cash_transactions</text>
+<text x="1880" y="466" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="2094" y="466" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="466" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="1871" y="470" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="484" font-size="12" font-weight="400" fill="#1f1d2b">cash_session_id</text>
+<text x="2094" y="484" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="484" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="1880" y="502" font-size="12" font-weight="400" fill="#1f1d2b">txn_type</text>
+<text x="2094" y="502" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<rect x="1871" y="506" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="520" font-size="12" font-weight="400" fill="#1f1d2b">direction</text>
+<text x="2094" y="520" font-size="10.5" fill="#6b6b80" text-anchor="end">enum</text>
+<text x="1880" y="538" font-size="12" font-weight="400" fill="#1f1d2b">amount</text>
+<text x="2094" y="538" font-size="10.5" fill="#6b6b80" text-anchor="end">decimal(15,2)</text>
+<rect x="1871" y="542" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="556" font-size="12" font-weight="400" fill="#1f1d2b">reference_type</text>
+<text x="2094" y="556" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(30)</text>
+<text x="1880" y="574" font-size="12" font-weight="400" fill="#1f1d2b">reference_id</text>
+<text x="2094" y="574" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<rect x="1871" y="578" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="592" font-size="12" font-weight="400" fill="#1f1d2b">description</text>
+<text x="2094" y="592" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(255)</text>
+<text x="1880" y="610" font-size="12" font-weight="400" fill="#1f1d2b">recorded_by</text>
+<text x="2094" y="610" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="2124" y="610" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<rect x="1871" y="614" width="260" height="18" fill="#f4f4f8"/>
+<text x="1880" y="628" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="2094" y="628" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="40" y="564" width="262" height="182" rx="8" fill="#ffffff" stroke="#5b3fd6" stroke-width="1.6"/>
+<path d="M 40 572 h 262 v 22 h -262 z" fill="#5b3fd6"/>
+<rect x="40" y="564" width="262" height="30" rx="8" fill="#5b3fd6"/>
+<text x="52" y="584" font-size="14" font-weight="700" fill="#ffffff">audit_logs</text>
+<text x="50" y="610" font-size="12" font-weight="700" fill="#1f1d2b">id</text>
+<text x="264" y="610" font-size="10.5" fill="#6b6b80" text-anchor="end">bigint</text>
+<text x="294" y="610" font-size="10" font-weight="700" fill="#d9534f" text-anchor="end">PK</text>
+<rect x="41" y="614" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="628" font-size="12" font-weight="400" fill="#1f1d2b">user_id</text>
+<text x="264" y="628" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<text x="294" y="628" font-size="10" font-weight="700" fill="#5b3fd6" text-anchor="end">FK</text>
+<text x="50" y="646" font-size="12" font-weight="400" fill="#1f1d2b">action</text>
+<text x="264" y="646" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(60)</text>
+<rect x="41" y="650" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="664" font-size="12" font-weight="400" fill="#1f1d2b">entity_type</text>
+<text x="264" y="664" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(40)</text>
+<text x="50" y="682" font-size="12" font-weight="400" fill="#1f1d2b">entity_id</text>
+<text x="264" y="682" font-size="10.5" fill="#6b6b80" text-anchor="end">int</text>
+<rect x="41" y="686" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="700" font-size="12" font-weight="400" fill="#1f1d2b">details</text>
+<text x="264" y="700" font-size="10.5" fill="#6b6b80" text-anchor="end">text</text>
+<text x="50" y="718" font-size="12" font-weight="400" fill="#1f1d2b">ip_address</text>
+<text x="264" y="718" font-size="10.5" fill="#6b6b80" text-anchor="end">varchar(45)</text>
+<rect x="41" y="722" width="260" height="18" fill="#f4f4f8"/>
+<text x="50" y="736" font-size="12" font-weight="400" fill="#1f1d2b">created_at</text>
+<text x="264" y="736" font-size="10.5" fill="#6b6b80" text-anchor="end">timestamp</text>
+<rect x="40" y="1582" width="2092" height="120" rx="8" fill="#f4f4f8"/>
+<text x="54" y="1606" font-size="13" font-weight="700" fill="#1f1d2b">One user records many transactions (not drawn, to keep the diagram readable)</text>
+<text x="54" y="1628" font-size="11.5" fill="#4a4a5e">purchases: created_by, confirmed_by, cancelled_by;   cash_sessions: opened_by, closed_by</text>
+<text x="54" y="1646" font-size="11.5" fill="#4a4a5e">sales: sold_by, discount_by, cancelled_by;   payments: received_by;   debt_payments: received_by;   expenses: recorded_by</text>
+<text x="54" y="1664" font-size="11.5" fill="#4a4a5e">stock_adjustments: adjusted_by;   stock_movements: created_by;   cash_transactions: recorded_by;   audit_logs: user_id</text>
+<text x="54" y="1682" font-size="11.5" font-weight="700" fill="#5b3fd6">Each of these columns references users.id (N : 1)</text>
+</svg>

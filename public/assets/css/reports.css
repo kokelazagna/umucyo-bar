@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Extra styles for Reports and the Dashboard chart.
+   Loaded AFTER design.css and uses the same design tokens.
+   ========================================================================== */
+
+.print-only { display: none; }
+.stat__sub { display: block; margin-top: 2px; font-size: 11px; color: var(--c-muted); }
+.stat__value small { font-size: 11px; font-weight: 500; color: var(--c-muted); }
+
+/* ---------- Reports ---------- */
+.report-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: var(--sp-4); }
+.report-card { display: flex; align-items: flex-start; gap: var(--sp-3); padding: var(--sp-4); background: var(--c-surface); border-radius: var(--r-lg); color: var(--c-text); transition: background var(--t), transform var(--t); }
+.report-card:hover { background: var(--c-hover); color: var(--c-text); transform: translateY(-2px); }
+.report-card strong { display: block; font-size: 14px; }
+.report-card__desc { display: block; margin-top: 2px; font-size: 12px; color: var(--c-muted); line-height: 1.4; }
+.report-card__kind { display: block; margin-top: var(--sp-2); font-size: 11px; font-weight: 700; color: var(--c-primary-label); }
+.report-head { margin: 0 0 var(--sp-5); font-size: 12px; color: var(--c-muted); }
+.report-head h2 { margin: 0 0 var(--sp-1); font-size: 20px; color: var(--c-text); }
+.report-stats { margin-bottom: var(--sp-6); }
+.table tr.bold td, .table tfoot tr.bold td { font-weight: 700; }
+
+/* ---------- Dashboard chart ---------- */
+.bars { display: flex; align-items: flex-end; gap: var(--sp-4); height: 190px; padding: var(--sp-3) 0 0; }
+.bar-col { flex: 1; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: var(--sp-1); }
+.bar { width: 100%; max-width: 56px; min-height: 0; background: var(--c-primary); border-radius: var(--r-sm) var(--r-sm) 0 0; transition: background var(--t); }
+.bar-col:hover .bar { background: var(--c-coral); }
+.bar-col span { font-size: 11px; color: var(--c-muted); }
+.bar-col small { font-size: 10px; color: var(--c-text); }
+
+@media print {
+  .print-only { display: block !important; }
+  .report-card { break-inside: avoid; }
+}

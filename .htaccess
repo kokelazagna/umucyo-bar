@@ -1,0 +1,20 @@
+# Serve route.php when only the folder is requested (no index.php in the root)
+DirectoryIndex route.php
+
+RewriteEngine On
+
+# Disable directory listing
+Options -Indexes
+
+# The service worker must be served from the PROJECT ROOT (not /public) so its
+# scope covers the whole app. The file itself lives in public/sw.js.
+RewriteRule ^sw\.js$ public/sw.js [L]
+RewriteRule ^manifest\.webmanifest$ public/manifest.webmanifest [L]
+
+# If the request is not an existing file or folder
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Send the whole path to route.php (same pattern as ILMS).
+# No RewriteBase: this works whatever the folder is named.
+RewriteRule ^(.*)$ route.php?url=$1 [QSA,L]
