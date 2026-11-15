@@ -3,8 +3,8 @@
 // Expenses (manager / owner).
 // ============================================================================
 
-require_once __DIR__ . '/../models/expense_model.php';
-require_once __DIR__ . '/../services/expense_service.php';
+require_once __DIR__ . '/../Models/expense_model.php';
+require_once __DIR__ . '/../Services/expense_service.php';
 require_once __DIR__ . '/../validators/expense_validator.php';
 
 function handleExpenseRequest($action, $data, $conn) {
@@ -29,8 +29,9 @@ function expense_index($conn): void
         'from'     => get_text('from'),
         'to'       => get_text('to'),
     ];
-    $expenses = search_expenses($filters, current_page(), PER_PAGE, $conn)['data'];
-    $expTotal = search_expenses($filters, current_page(), PER_PAGE, $conn)['total'];
+    $result = search_expenses($filters, current_page(), PER_PAGE, $conn);
+    $expenses = $result['data'];
+    $expTotal = (int)$result['total'];
 
     $total = 0.0;
     foreach ($expenses as $expense) {
@@ -42,6 +43,7 @@ function expense_index($conn): void
         'active'     => 'expense',
         'expenses'   => $expenses,
         'total'      => $total,
+        'expTotal'   => $expTotal,
         'categories' => get_expense_categories($conn)['data'],
         'filters'    => $filters,
     ]);
