@@ -3,9 +3,9 @@
 // Stock control: movement history, adjustment records and new adjustments.
 // ============================================================================
 
-require_once __DIR__ . '/../models/stock_model.php';
-require_once __DIR__ . '/../models/product_model.php';
-require_once __DIR__ . '/../services/stock_service.php';
+require_once __DIR__ . '/../Models/stock_model.php';
+require_once __DIR__ . '/../Models/product_model.php';
+require_once __DIR__ . '/../Services/stock_service.php';
 require_once __DIR__ . '/../validators/stock_validator.php';
 
 function handleStockRequest($action, $data, $conn) {

@@ -3,7 +3,7 @@
 // Sales history (database queries only).
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // $f: q (receipt number), status, from, to
 function search_sales(array $f, int $page, int $perPage, $conn)

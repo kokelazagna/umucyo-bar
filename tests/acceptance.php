@@ -11,16 +11,16 @@ define('APP_PATH', BASE_PATH . '/app');
 define('APP_DEBUG', false);
 
 require APP_PATH . '/config/connection.php';
-require APP_PATH . '/helpers/php_helper.php';
-require APP_PATH . '/helpers/app_helper.php';
-require APP_PATH . '/middleware/auth.php';
-require APP_PATH . '/services/audit_service.php';
-require APP_PATH . '/services/cash_service.php';
-require APP_PATH . '/services/stock_service.php';
-require APP_PATH . '/services/product_service.php';
-require APP_PATH . '/services/settings_service.php';
-require APP_PATH . '/services/table_service.php';
-require APP_PATH . '/services/sale_service.php';
+require APP_PATH . '/Helpers/php_helper.php';
+require APP_PATH . '/Helpers/app_helper.php';
+require APP_PATH . '/Middleware/auth.php';
+require APP_PATH . '/Services/audit_service.php';
+require APP_PATH . '/Services/cash_service.php';
+require APP_PATH . '/Services/stock_service.php';
+require APP_PATH . '/Services/product_service.php';
+require APP_PATH . '/Services/settings_service.php';
+require APP_PATH . '/Services/table_service.php';
+require APP_PATH . '/Services/sale_service.php';
 
 date_default_timezone_set('Africa/Kigali');
 

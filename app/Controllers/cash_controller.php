@@ -3,7 +3,7 @@
 // Cash management: open the till, deposits, withdrawals, close the till.
 // ============================================================================
 
-require_once __DIR__ . '/../services/cash_service.php';
+require_once __DIR__ . '/../Services/cash_service.php';
 require_once __DIR__ . '/../validators/settings_validator.php';
 
 function handleCashRequest($action, $data, $conn) {

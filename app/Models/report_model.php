@@ -5,7 +5,7 @@
 // and lives in report_service.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 function query_daily_sales(string $a, string $b, $conn)
 {

@@ -7,12 +7,12 @@
 // form, call the service and show a message.
 // ============================================================================
 
-require_once __DIR__ . '/../models/table_model.php';
-require_once __DIR__ . '/../models/product_model.php';
-require_once __DIR__ . '/../models/customer_model.php';
-require_once __DIR__ . '/../services/table_service.php';
-require_once __DIR__ . '/../services/sale_service.php';
-require_once __DIR__ . '/../services/customer_service.php';
+require_once __DIR__ . '/../Models/table_model.php';
+require_once __DIR__ . '/../Models/product_model.php';
+require_once __DIR__ . '/../Models/customer_model.php';
+require_once __DIR__ . '/../Services/table_service.php';
+require_once __DIR__ . '/../Services/sale_service.php';
+require_once __DIR__ . '/../Services/customer_service.php';
 
 // ---------- One-time form tokens (protect against a double submit) ---------
 

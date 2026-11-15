@@ -3,8 +3,8 @@
 // Beverage categories.
 // ============================================================================
 
-require_once __DIR__ . '/../models/category_model.php';
-require_once __DIR__ . '/../services/audit_service.php';
+require_once __DIR__ . '/../Models/category_model.php';
+require_once __DIR__ . '/../Services/audit_service.php';
 
 function handleCategoryRequest($action, $data, $conn) {
     require_role(['manager', 'stock_manager']);

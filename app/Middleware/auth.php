@@ -5,8 +5,8 @@
 // the login live in user_model.
 // ============================================================================
 
-require_once __DIR__ . '/../models/user_model.php';
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Models/user_model.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // Starts the PHP session and logs the user out after a period of inactivity.
 function boot_session(): void

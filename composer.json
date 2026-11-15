@@ -1,0 +1,13 @@
+{
+  "name": "umucyo-bar/bssbms",
+  "description": "Bar stock, sales and business management system.",
+  "type": "project",
+  "require": {
+    "php": ">=8.2"
+  },
+  "scripts": {
+    "lint": "@php scripts/lint.php",
+    "check-paths": "@php scripts/verify-case-sensitive-paths.php",
+    "migrate": "@php scripts/migrate.php"
+  }
+}

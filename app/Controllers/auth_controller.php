@@ -3,8 +3,8 @@
 // Login and logout.
 // ============================================================================
 
-require_once __DIR__ . '/../middleware/auth.php';
-require_once __DIR__ . '/../services/audit_service.php';
+require_once __DIR__ . '/../Middleware/auth.php';
+require_once __DIR__ . '/../Services/audit_service.php';
 require_once __DIR__ . '/../validators/user_validator.php';
 
 function handleAuthRequest($action, $data, $conn) {

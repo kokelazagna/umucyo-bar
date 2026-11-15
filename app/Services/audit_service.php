@@ -4,8 +4,8 @@
 // to the audit_logs table.
 // ============================================================================
 
-require_once __DIR__ . '/../models/audit_model.php';
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Models/audit_model.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 function audit_log($conn, ?int $userId, string $action, ?string $entityType = null, ?int $entityId = null, ?string $details = null): void
 {

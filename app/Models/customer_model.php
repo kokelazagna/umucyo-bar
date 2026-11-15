@@ -3,7 +3,7 @@
 // Customers and their credit history (database queries only).
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // $f: q (search text), status, debt (true = only customers who owe money)
 // Paged: returns ['success','data','total'].

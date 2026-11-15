@@ -1,0 +1,18 @@
+name: PHP quality
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  static-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+      - name: Verify case-sensitive imports
+        run: php scripts/verify-case-sensitive-paths.php
+      - name: Lint PHP
+        run: php scripts/lint.php

@@ -3,9 +3,9 @@
 // Reports (manager / owner; the stock reports are also open to the stock manager).
 // ============================================================================
 
-require_once __DIR__ . '/../services/report_service.php';
-require_once __DIR__ . '/../services/audit_service.php';
-require_once __DIR__ . '/../helpers/xlsx_helper.php';
+require_once __DIR__ . '/../Services/report_service.php';
+require_once __DIR__ . '/../Services/audit_service.php';
+require_once __DIR__ . '/../Helpers/xlsx_helper.php';
 
 function handleReportRequest($action, $data, $conn) {
     require_role(['manager', 'stock_manager']);

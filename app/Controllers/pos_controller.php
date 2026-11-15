@@ -4,11 +4,11 @@
 // (The checkout keeps answering the POS JavaScript with JSON, as before.)
 // ============================================================================
 
-require_once __DIR__ . '/../models/product_model.php';
-require_once __DIR__ . '/../models/customer_model.php';
-require_once __DIR__ . '/../services/sale_service.php';
-require_once __DIR__ . '/../services/cash_service.php';
-require_once __DIR__ . '/../services/customer_service.php';
+require_once __DIR__ . '/../Models/product_model.php';
+require_once __DIR__ . '/../Models/customer_model.php';
+require_once __DIR__ . '/../Services/sale_service.php';
+require_once __DIR__ . '/../Services/cash_service.php';
+require_once __DIR__ . '/../Services/customer_service.php';
 
 function handlePosRequest($action, $data, $conn) {
     require_role(['manager', 'cashier']);

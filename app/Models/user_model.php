@@ -3,7 +3,7 @@
 // Users and roles (database queries only).
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // Used by the login: finds the user by username OR email (an exact username match wins).
 function find_user_by_username(string $login, $conn)

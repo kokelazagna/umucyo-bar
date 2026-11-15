@@ -4,7 +4,7 @@
 // (Writing to it is done by audit_log() in audit_service.)
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // $f: action, user (id), from, to
 // $page and $perPage are kept so the controller call does not change,

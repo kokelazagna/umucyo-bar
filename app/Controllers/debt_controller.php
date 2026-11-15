@@ -3,7 +3,7 @@
 // Receiving a debt repayment from a customer.
 // ============================================================================
 
-require_once __DIR__ . '/../services/debt_service.php';
+require_once __DIR__ . '/../Services/debt_service.php';
 require_once __DIR__ . '/../validators/customer_validator.php';
 
 function handleDebtRequest($action, $data, $conn) {

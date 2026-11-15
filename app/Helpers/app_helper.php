@@ -64,11 +64,12 @@ function render(string $view, array $data = [], string $layout = 'main'): void
     extract($data, EXTR_SKIP);                 // turns ['title' => 'x'] into $title
 
     ob_start();
-    require APP_PATH . '/views/' . $view . '.php';
+    require APP_PATH . '/Views/' . $view . '.php';
     $content = ob_get_clean();                 // the page body, used by the layout
 
-    require APP_PATH . '/views/layouts/' . $layout . '.php';
-    exit;
+    require APP_PATH . '/Views/layouts/' . $layout . '.php';
+    // no exit: the calling test script (tests/render.php) manages cleanup,
+    // and redirect()/json_response() handle their own stops.
 }
 
 // Answers a fetch() request (the POS checkout) with JSON and stops.
@@ -199,6 +200,6 @@ function render_pagination(int $total, int $page, int $perPage, string $what = '
     $pag            = pagination_parts($total, $page, $perPage);
     $pag['what']    = $what;
     extract($pag, EXTR_SKIP);
-    require APP_PATH . '/views/partials/pagination.php';
+    require APP_PATH . '/Views/partials/pagination.php';
 }
 

@@ -8,8 +8,8 @@
 // line before it runs anything. The queries live in backup_model.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
-require_once __DIR__ . '/../models/backup_model.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
+require_once __DIR__ . '/../Models/backup_model.php';
 require_once __DIR__ . '/audit_service.php';
 
 // The first line of every backup file made by this application.

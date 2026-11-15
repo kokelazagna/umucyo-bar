@@ -13,38 +13,16 @@ if (!defined('APP_PATH')) {
     define('APP_PATH', BASE_PATH . '/app');
 }
 
-// ---- application settings (was config/app.php) ----
-if (!defined('APP_NAME')) {
-    define('APP_NAME', 'Umucyo Bar - BSSBMS');
-}
-if (!defined('APP_TIMEZONE')) {
-    define('APP_TIMEZONE', 'Africa/Kigali');
-}
-if (!defined('APP_CURRENCY')) {
-    define('APP_CURRENCY', 'RWF');
-}
-if (!defined('APP_SESSION_LIFETIME')) {
-    define('APP_SESSION_LIFETIME', 1800);       // seconds of inactivity before auto logout (30 min)
-}
-if (!defined('APP_DEBUG')) {
-    define('APP_DEBUG', true);                  // set to false in production
-}
-
-date_default_timezone_set(APP_TIMEZONE);
-if (APP_DEBUG) {
-    ini_set('display_errors', '1');
-    error_reporting(E_ALL);
-} else {
-    ini_set('display_errors', '0');
-    error_reporting(0);
-}
+require_once APP_PATH . '/config/app.php';
+require_once APP_PATH . '/Helpers/logger.php';
+configure_error_handling();
 
 ob_start();
 
 require_once __DIR__ . '/app/config/connection.php';
-require_once __DIR__ . '/app/middleware/auth.php';
-require_once __DIR__ . '/app/helpers/php_helper.php';
-require_once __DIR__ . '/app/helpers/app_helper.php';
+require_once __DIR__ . '/app/Middleware/auth.php';
+require_once __DIR__ . '/app/Helpers/php_helper.php';
+require_once __DIR__ . '/app/Helpers/app_helper.php';
 
 boot_session();                             // starts the PHP session
 
@@ -107,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !csrf_verify()) {
 }
 
 // ---- load the controller of this module ----
-$controller = __DIR__ . "/app/controllers/{$module}_controller.php";
+$controller = __DIR__ . "/app/Controllers/{$module}_controller.php";
 if (!file_exists($controller)) {
     http_response_code(500);
     echo '<h1>500 - The controller "' . e($module) . '" does not exist</h1>';
@@ -145,9 +123,16 @@ try {
         case 'user':         handleUserRequest($action, $data, $conn);        break;
         case 'sync':         handleSyncRequest($action, $data, $conn);        break;
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
+    app_log('error', 'Unhandled request exception', [
+        'exception' => get_class($e),
+        'message' => $e->getMessage(),
+        'file' => $e->getFile(),
+        'line' => $e->getLine(),
+        'url' => $_SERVER['REQUEST_URI'] ?? '',
+    ]);
     http_response_code(500);
-    echo '<h1>500 - Server error</h1>';
+    echo '<h1>500 - Server error</h1><p>Please try again later.</p>';
     if (APP_DEBUG) {
         echo '<pre>' . e($e->getMessage()) . '</pre>';
     }

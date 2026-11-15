@@ -11,16 +11,16 @@
 // The client engine lives in public/assets/js/offline.js.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
-require_once __DIR__ . '/../models/product_model.php';
-require_once __DIR__ . '/../models/category_model.php';
-require_once __DIR__ . '/../models/customer_model.php';
-require_once __DIR__ . '/../models/expense_model.php';
-require_once __DIR__ . '/../services/sale_service.php';
-require_once __DIR__ . '/../services/table_service.php';
-require_once __DIR__ . '/../services/expense_service.php';
-require_once __DIR__ . '/../services/cash_service.php';
-require_once __DIR__ . '/../services/audit_service.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
+require_once __DIR__ . '/../Models/product_model.php';
+require_once __DIR__ . '/../Models/category_model.php';
+require_once __DIR__ . '/../Models/customer_model.php';
+require_once __DIR__ . '/../Models/expense_model.php';
+require_once __DIR__ . '/../Services/sale_service.php';
+require_once __DIR__ . '/../Services/table_service.php';
+require_once __DIR__ . '/../Services/expense_service.php';
+require_once __DIR__ . '/../Services/cash_service.php';
+require_once __DIR__ . '/../Services/audit_service.php';
 
 const SYNC_ACTION_TYPES = ['pos_sale', 'table_draft_add', 'table_draft_update', 'table_serve', 'table_settle', 'expense_create'];
 

@@ -3,10 +3,10 @@
 // Settings: service areas, tables and the crate/pack conversions.
 // ============================================================================
 
-require_once __DIR__ . '/../models/settings_model.php';
-require_once __DIR__ . '/../models/table_model.php';
-require_once __DIR__ . '/../services/settings_service.php';
-require_once __DIR__ . '/../services/audit_service.php';
+require_once __DIR__ . '/../Models/settings_model.php';
+require_once __DIR__ . '/../Models/table_model.php';
+require_once __DIR__ . '/../Services/settings_service.php';
+require_once __DIR__ . '/../Services/audit_service.php';
 require_once __DIR__ . '/../validators/settings_validator.php';
 
 function handleSettingsRequest($action, $data, $conn) {

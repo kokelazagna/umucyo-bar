@@ -4,7 +4,7 @@
 // Database queries only - the change rules live in settings_service.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // Products with their units nested, for the settings table.
 function get_settings_products($conn): array

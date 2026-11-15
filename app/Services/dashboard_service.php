@@ -3,8 +3,8 @@
 // Dashboard chart business logic. The queries live in dashboard_model.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
-require_once __DIR__ . '/../models/dashboard_model.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
+require_once __DIR__ . '/../Models/dashboard_model.php';
 
 // Sales per day for the last $days days (oldest first), ready for the bar chart:
 //   [ ['label' => 'Mon', 'date' => '2026-11-02', 'value' => 1200.0, 'pct' => 80], ... ]

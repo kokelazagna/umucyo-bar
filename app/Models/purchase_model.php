@@ -3,7 +3,7 @@
 // Purchases from suppliers (database queries only).
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // $f: q (reference), supplier (id), status, from, to
 // Paged: returns ['success','data','total'] - used by the purchases list

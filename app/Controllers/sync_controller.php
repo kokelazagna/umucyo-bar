@@ -10,8 +10,8 @@
 // the online service functions in sync_service.php. The server is the authority.
 // ============================================================================
 
-require_once __DIR__ . '/../middleware/auth.php';
-require_once __DIR__ . '/../services/sync_service.php';
+require_once __DIR__ . '/../Middleware/auth.php';
+require_once __DIR__ . '/../Services/sync_service.php';
 
 function handleSyncRequest($action, $data, $conn) {
     // Every sync endpoint needs a logged-in user (a not-logged-in push is

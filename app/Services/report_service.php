@@ -14,8 +14,8 @@
 // column types: text, date, int, money (RWF), pct (percent)
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
-require_once __DIR__ . '/../models/report_model.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
+require_once __DIR__ . '/../Models/report_model.php';
 
 // The list of reports: slug => details.
 //   kind    'range' = has a date filter,  'snapshot' = the situation right now

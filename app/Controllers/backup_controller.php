@@ -3,8 +3,8 @@
 // Backup and restore of the database (owner only).
 // ============================================================================
 
-require_once __DIR__ . '/../models/backup_model.php';
-require_once __DIR__ . '/../services/backup_service.php';
+require_once __DIR__ . '/../Models/backup_model.php';
+require_once __DIR__ . '/../Services/backup_service.php';
 
 function handleBackupRequest($action, $data, $conn) {
     require_role([]);

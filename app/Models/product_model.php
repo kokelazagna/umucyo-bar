@@ -4,7 +4,7 @@
 // The create / update rules (with their transaction) live in product_service.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // The units a product can be sold in, and the ones that can be its base unit.
 function product_unit_names(): array

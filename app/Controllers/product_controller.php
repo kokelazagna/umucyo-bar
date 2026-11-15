@@ -3,10 +3,10 @@
 // Products (with their extra selling units: crate, pack...).
 // ============================================================================
 
-require_once __DIR__ . '/../models/product_model.php';
-require_once __DIR__ . '/../models/category_model.php';
-require_once __DIR__ . '/../services/product_service.php';
-require_once __DIR__ . '/../services/audit_service.php';
+require_once __DIR__ . '/../Models/product_model.php';
+require_once __DIR__ . '/../Models/category_model.php';
+require_once __DIR__ . '/../Services/product_service.php';
+require_once __DIR__ . '/../Services/audit_service.php';
 require_once __DIR__ . '/../validators/product_validator.php';
 
 function handleProductRequest($action, $data, $conn) {

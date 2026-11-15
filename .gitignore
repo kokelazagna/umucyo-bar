@@ -1,4 +1,5 @@
 # Runtime data that must not go into the repository
+.env
 storage/logs/*
 storage/backups/*
 storage/exports/*

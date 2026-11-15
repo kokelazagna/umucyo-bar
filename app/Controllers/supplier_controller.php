@@ -3,9 +3,9 @@
 // Suppliers.
 // ============================================================================
 
-require_once __DIR__ . '/../models/supplier_model.php';
-require_once __DIR__ . '/../models/purchase_model.php';
-require_once __DIR__ . '/../services/audit_service.php';
+require_once __DIR__ . '/../Models/supplier_model.php';
+require_once __DIR__ . '/../Models/purchase_model.php';
+require_once __DIR__ . '/../Services/audit_service.php';
 require_once __DIR__ . '/../validators/supplier_validator.php';
 
 function handleSupplierRequest($action, $data, $conn) {

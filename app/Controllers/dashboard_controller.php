@@ -3,10 +3,10 @@
 // Dashboard page. The money figures are only collected for roles that may see them.
 // ============================================================================
 
-require_once __DIR__ . '/../models/dashboard_model.php';
-require_once __DIR__ . '/../models/category_model.php';
-require_once __DIR__ . '/../services/dashboard_service.php';
-require_once __DIR__ . '/../services/cash_service.php';
+require_once __DIR__ . '/../Models/dashboard_model.php';
+require_once __DIR__ . '/../Models/category_model.php';
+require_once __DIR__ . '/../Services/dashboard_service.php';
+require_once __DIR__ . '/../Services/cash_service.php';
 
 function handleDashboardRequest($action, $data, $conn) {
     require_role(['manager', 'cashier', 'stock_manager']);

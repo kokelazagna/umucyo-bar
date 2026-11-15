@@ -6,10 +6,10 @@
 // The queries live in sale_model.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
-require_once __DIR__ . '/../models/sale_model.php';
-require_once __DIR__ . '/../models/product_model.php';
-require_once __DIR__ . '/../models/stock_model.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
+require_once __DIR__ . '/../Models/sale_model.php';
+require_once __DIR__ . '/../Models/product_model.php';
+require_once __DIR__ . '/../Models/stock_model.php';
 require_once __DIR__ . '/cash_service.php';
 require_once __DIR__ . '/audit_service.php';
 

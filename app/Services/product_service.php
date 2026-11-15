@@ -4,8 +4,8 @@
 // transaction (all or nothing). The queries live in product_model.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
-require_once __DIR__ . '/../models/product_model.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
+require_once __DIR__ . '/../Models/product_model.php';
 require_once __DIR__ . '/audit_service.php';
 
 // Creates the product and its units in ONE transaction.

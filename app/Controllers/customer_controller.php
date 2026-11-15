@@ -3,8 +3,8 @@
 // Customers, credit limits and debt statements.
 // ============================================================================
 
-require_once __DIR__ . '/../models/customer_model.php';
-require_once __DIR__ . '/../services/audit_service.php';
+require_once __DIR__ . '/../Models/customer_model.php';
+require_once __DIR__ . '/../Services/audit_service.php';
 require_once __DIR__ . '/../validators/customer_validator.php';
 
 function handleCustomerRequest($action, $data, $conn) {

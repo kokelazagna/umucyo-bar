@@ -3,8 +3,8 @@
 // Sales history, receipts and sale cancellation.
 // ============================================================================
 
-require_once __DIR__ . '/../models/sale_model.php';
-require_once __DIR__ . '/../services/sale_service.php';
+require_once __DIR__ . '/../Models/sale_model.php';
+require_once __DIR__ . '/../Services/sale_service.php';
 require_once __DIR__ . '/../validators/supplier_validator.php';
 
 function handleSaleRequest($action, $data, $conn) {

@@ -4,7 +4,7 @@
 // The backup / restore rules live in backup_service.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // Names of all tables in the database (customers, products, ...).
 function get_backup_table_names($conn): array

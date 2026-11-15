@@ -6,8 +6,8 @@
 // The queries live in settings_model.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
-require_once __DIR__ . '/../models/settings_model.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
+require_once __DIR__ . '/../Models/settings_model.php';
 require_once __DIR__ . '/audit_service.php';
 
 // Changes one selling unit's factor and/or price, records the previous values

@@ -4,8 +4,8 @@
 // from a form ("Other / New..." in a dropdown). Queries live in customer_model.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
-require_once __DIR__ . '/../models/customer_model.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
+require_once __DIR__ . '/../Models/customer_model.php';
 require_once __DIR__ . '/audit_service.php';
 
 // Returns the id of the customer with this name; creates it when it does not

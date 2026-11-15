@@ -3,7 +3,7 @@
 // Stock movement history and stock adjustment records (database queries only).
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 // Every kind of stock movement that can be stored.
 function stock_movement_types(): array

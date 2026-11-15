@@ -3,7 +3,7 @@
 // Beverage categories (database queries only).
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 
 function get_categories_with_counts($conn)
 {

@@ -3,9 +3,9 @@
 // Users and the audit log (owner only).
 // ============================================================================
 
-require_once __DIR__ . '/../models/user_model.php';
-require_once __DIR__ . '/../models/audit_model.php';
-require_once __DIR__ . '/../services/audit_service.php';
+require_once __DIR__ . '/../Models/user_model.php';
+require_once __DIR__ . '/../Models/audit_model.php';
+require_once __DIR__ . '/../Services/audit_service.php';
 require_once __DIR__ . '/../validators/user_validator.php';
 
 function handleUserRequest($action, $data, $conn) {

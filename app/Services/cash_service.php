@@ -4,7 +4,7 @@
 // is recorded in cash_transactions, and the session is closed with a counted amount.
 // ============================================================================
 
-require_once __DIR__ . '/../helpers/php_helper.php';
+require_once __DIR__ . '/../Helpers/php_helper.php';
 require_once __DIR__ . '/audit_service.php';
 
 // The open cash session, or none. Only ONE session can be open at a time (one till).

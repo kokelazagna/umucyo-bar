@@ -4,12 +4,12 @@
 // Flow: save (PENDING) -> confirm when goods arrive (stock increases) -> pay the supplier.
 // ============================================================================
 
-require_once __DIR__ . '/../models/purchase_model.php';
-require_once __DIR__ . '/../models/supplier_model.php';
-require_once __DIR__ . '/../models/product_model.php';
-require_once __DIR__ . '/../services/purchase_service.php';
-require_once __DIR__ . '/../services/supplier_service.php';
-require_once __DIR__ . '/../services/audit_service.php';
+require_once __DIR__ . '/../Models/purchase_model.php';
+require_once __DIR__ . '/../Models/supplier_model.php';
+require_once __DIR__ . '/../Models/product_model.php';
+require_once __DIR__ . '/../Services/purchase_service.php';
+require_once __DIR__ . '/../Services/supplier_service.php';
+require_once __DIR__ . '/../Services/audit_service.php';
 require_once __DIR__ . '/../validators/purchase_validator.php';
 
 function handlePurchaseRequest($action, $data, $conn) {
